@@ -2,12 +2,12 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="VPGSolver" targetName="VPGSolver_bdd_fo" />
       <config projectName="VPGSolver" targetName="VPGSolver_bdd" />
-      <config projectName="VPGSolver" targetName="VPGSolver_explicit" />
-      <config projectName="VPGSolver" targetName="VPGSolver_bdd_single" />
-      <config projectName="VPGSolver" targetName="VPGSolver_explicit_fo" />
       <config projectName="VPGSolver" targetName="VPGSolver_bdd_single_fo" />
+      <config projectName="VPGSolver" targetName="VPGSolver_bdd_single" />
+      <config projectName="VPGSolver" targetName="VPGSolver_bdd_fo" />
+      <config projectName="VPGSolver" targetName="VPGSolver_explicit_fo" />
+      <config projectName="VPGSolver" targetName="VPGSolver_explicit" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -18,14 +18,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="065c0f65-4e45-4bdd-bfb0-047fd78e757c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MBR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/MBR.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MBR.h" beforeDir="false" afterPath="$PROJECT_DIR$/MBR.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/VPGSolver_bdd" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/VPGSolver_bdd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/VPGSolver_bdd_single" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/VPGSolver_bdd_single" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/VPGSolver_explicit" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/VPGSolver_explicit" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -52,30 +47,27 @@
     <expand />
     <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
+            <state relative-caret-position="160">
+              <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#901#940#0" expanded="true" />
-                <element signature="e#3713#5011#0" expanded="true" />
-                <element signature="e#6954#6983#0" expanded="true" />
-                <element signature="e#7230#7307#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MBR.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
+            <state relative-caret-position="125">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#38#54#0" expanded="true" />
               </folding>
@@ -83,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MBR.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="190">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding>
                 <element signature="e#88#105#0" expanded="true" />
               </folding>
@@ -119,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="600">
               <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
               <folding>
                 <element signature="e#119#136#0" expanded="true" />
@@ -131,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="10050">
               <caret line="670" selection-start-line="670" selection-end-line="670" />
             </state>
           </provider>
@@ -140,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FPIte.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="480">
               <caret line="32" selection-start-line="32" selection-end-line="43" />
             </state>
           </provider>
@@ -149,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="4890">
               <caret line="326" column="26" selection-start-line="326" selection-start-column="26" selection-end-line="326" selection-end-column="26" />
               <folding>
                 <element signature="e#37#55#0" expanded="true" />
@@ -164,7 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cache</find>
       <find>range</find>
       <find>SINGLEMODE</find>
       <find>printCV</find>
@@ -194,6 +185,7 @@
       <find>bdd</find>
       <find>metric_output</find>
       <find>metric_pi</find>
+      <find>long</find>
     </findStrings>
     <replaceStrings>
       <replace>bdd</replace>
@@ -239,8 +231,8 @@
         <option value="$PROJECT_DIR$/Game.h" />
         <option value="$PROJECT_DIR$/Game.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/MBR.h" />
         <option value="$PROJECT_DIR$/MBR.cpp" />
+        <option value="$PROJECT_DIR$/MBR.h" />
       </list>
     </option>
   </component>
@@ -255,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1365" />
     <option name="width" value="1682" />
     <option name="height" value="1002" />
@@ -320,7 +312,7 @@
     </option>
   </component>
   <component name="RunManager" selected="CMake Application.VPGSolver_bdd FPIte">
-    <configuration name="VPGSolver_bdd FPIte" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/../testsuite/minepump/game_phi3PGs/SVPG F m/tmp/test/" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VPGSolver" TARGET_NAME="VPGSolver_bdd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="VPGSolver" RUN_TARGET_NAME="VPGSolver_bdd">
+    <configuration name="VPGSolver_bdd FPIte" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/../testsuite/randomverification/gameC1/SVPG F m/tmp/aaa" PASS_PARENT_ENVS_2="true" PROJECT_NAME="VPGSolver" TARGET_NAME="VPGSolver_bdd" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="VPGSolver" RUN_TARGET_NAME="VPGSolver_bdd">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -356,12 +348,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.VPGSolver_bdd" />
       <item itemvalue="CMake Application.VPGSolver_bdd FPIte" />
-      <item itemvalue="CMake Application.VPGSolver_bdd_single" />
-      <item itemvalue="CMake Application.VPGSolver_bdd_single PG" />
-      <item itemvalue="CMake Application.VPGSolver_bdd_single  FPIte" />
+      <item itemvalue="CMake Application.VPGSolver_bdd" />
       <item itemvalue="CMake Application.VPGSolver_bdd_single  FPIte assisted" />
+      <item itemvalue="CMake Application.VPGSolver_bdd_single  FPIte" />
+      <item itemvalue="CMake Application.VPGSolver_bdd_single PG" />
+      <item itemvalue="CMake Application.VPGSolver_bdd_single" />
       <item itemvalue="CMake Application.VPGSolver_explicit" />
     </list>
   </component>
@@ -401,11 +393,13 @@
       <workItem from="1563354621146" duration="18759000" />
       <workItem from="1563433220316" duration="16873000" />
       <workItem from="1563783729324" duration="18481000" />
+      <workItem from="1564153777374" duration="878000" />
+      <workItem from="1564406143588" duration="1117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266700000" />
+    <option name="totallyTimeSpent" value="268695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,21 +411,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1365" y="0" width="1682" height="1002" extended-state="1" />
+    <frame x="1365" y="0" width="1682" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20379438" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20869033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291714" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499388" weight="0.42338252" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4858116" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4858116" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291714" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.49877602" visible="true" weight="0.44040862" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49877602" weight="0.44040862" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291714" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501224" side_tool="true" weight="0.44040862" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3291714" />
@@ -444,6 +438,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/MBR.cpp</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -790,17 +795,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FPIte.cpp">
+    <entry file="file://$PROJECT_DIR$/Game.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="32" selection-start-line="32" selection-end-line="43" />
+        <state relative-caret-position="600">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding>
+            <element signature="e#119#136#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="10050">
           <caret line="670" selection-start-line="670" selection-end-line="670" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FPIte.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4890">
+          <caret line="326" column="26" selection-start-line="326" selection-start-column="26" selection-end-line="326" selection-end-column="26" />
+          <folding>
+            <element signature="e#37#55#0" expanded="true" />
+            <element signature="e#2259#2415#0" expanded="true" />
+            <element signature="e#9163#9225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#901#940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Measurements/bintree.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -814,65 +859,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Measurements/bintree.h">
+    <entry file="file://$PROJECT_DIR$/MBR.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="125">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <element signature="e#119#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="326" column="26" selection-start-line="326" selection-start-column="26" selection-end-line="326" selection-end-column="26" />
-          <folding>
-            <element signature="e#37#55#0" expanded="true" />
-            <element signature="e#2259#2415#0" expanded="true" />
-            <element signature="e#9163#9225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#901#940#0" expanded="true" />
-            <element signature="e#3713#5011#0" expanded="true" />
-            <element signature="e#6954#6983#0" expanded="true" />
-            <element signature="e#7230#7307#0" expanded="true" />
+            <element signature="e#38#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MBR.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="190">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding>
             <element signature="e#88#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MBR.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="129" column="31" selection-start-line="129" selection-start-column="31" selection-end-line="129" selection-end-column="31" />
-          <folding>
-            <element signature="e#38#54#0" expanded="true" />
           </folding>
         </state>
       </provider>

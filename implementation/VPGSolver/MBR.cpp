@@ -38,8 +38,8 @@ MBR::MBR(Game *game) {
 void MBR::solve() {
     if(metric_output){
         if(this->measured == nullptr)
-            this->measured = new bintree<vector<long>>();
-        this->measured->value = new vector<long>(5);
+            this->measured = new bintree<vector<int>>();
+        this->measured->value = new vector<int>(5);
         (*this->measured->value)[4] = confstring;
 
 #ifdef subsetbdd
@@ -100,7 +100,7 @@ void MBR::solve() {
 //            (*this->measured->value)[2] = 0;
             if(metric_dir.length() > 0){
                 ofstream f;
-                f.open(metric_dir + to_string(confstring) + "_0.pg");
+                f.open(metric_dir + '/' + to_string(confstring) + "_0.pg");
                 game->writePG(&f);
                 f.close();
             }
@@ -123,7 +123,7 @@ void MBR::solve() {
 //            (*this->measured->value)[3] = 0;
         if(metric_dir.length() > 0) {
             ofstream f;
-            f.open(metric_dir + to_string(confstring) + "_1.pg");
+            f.open(metric_dir + '/' + to_string(confstring) + "_1.pg");
             game->writePG(&f);
             f.close();
         }
@@ -182,8 +182,8 @@ void MBR::solve() {
     MBR ma(game, confa, P0, VP1, feature);
     MBR mb(game, confb, P0b, VP1b, feature);
     if(metric_output){
-        this->measured->left = new bintree<vector<long>>();
-        this->measured->right = new bintree<vector<long>>();
+        this->measured->left = new bintree<vector<int>>();
+        this->measured->right = new bintree<vector<int>>();
         ma.measured = this->measured->left;
         mb.measured = this->measured->right;
         ma.confstring = confastring;
@@ -248,7 +248,7 @@ void MBR::printMeasurements(ostream * output) {
     cout << "Solved " << ((nodes+1)*3/2-2) << " games" << endl;
 }
 
-int MBR::printNode(ostream *output, bintree<vector<long>> *node, int c) {
+int MBR::printNode(ostream *output, bintree<vector<int>> *node, int c) {
     if(node == nullptr)
         return -1;
     *output << 'n' << c++ << " [label=\"";
